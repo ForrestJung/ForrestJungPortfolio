@@ -4,3 +4,122 @@
   light brown hex code: #cca64e
   brown hex code: #93731a
 */
+
+header {
+  z-index: 0;
+  position: fixed;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  margin-right: 1vw;
+  background-color: red;
+}
+
+.name-title {
+  height: 100%;
+  background-color: green;
+  margin-top: 1vw;
+  margin-right: auto;
+  margin-bottom: 1vw;
+  margin-left: 1vw;
+  padding: auto;
+  vertical-align: center;
+}
+
+div.name-title h1 {
+  margin-top: 2%;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  font-size: calc(26px + 1.5vw);
+  object-fit: contain;
+}
+
+div.name-title h3 {
+  background-color: red;
+  margin-top: auto;
+  margin-right:1vw;
+  margin-bottom: 1%;
+  margin-left: 1vw;
+  padding: 0.5vw;
+  font-size: calc(10px + 0.5vw);
+  text-align: center;
+}
+
+.nav-header-buttons {
+  /* min-width: 25%; */
+  width: 40%;
+  padding: 1vw;
+  background-color: blue;
+  margin-top: auto;
+  margin-right: 1vw;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+
+a.nav-buttons {
+  padding: 1vw;
+  /* background-color: white; */
+  border-style: none;
+  text-align: center;
+  font-size: calc(8px + 1vw);
+  object-fit: contain;
+}
+
+
+a:hover {
+  background-color: red;
+}
+
+a:visited {
+  background-color: green;
+}
+
+a:active {
+  background-color: blue;
+}
+
+.img-container {
+  /* z-index: 2; */
+  display: flex;
+  padding-top: 20vh;
+  margin-right: 1vw;
+  margin-left: 1vw;
+}
+
+.left-img {
+  /* z-index: 1; */
+  width: 300px;
+  height: 200px;
+  min-width: 300px;
+  min-height: 200px;
+  margin-right: auto;
+  margin-left: 0;
+  background-color: blueviolet;
+  border-style: solid;
+}
+
+.middle-img {
+  /* z-index: 2; */
+  position: relative;
+  width: 300px;
+  height: 200px;
+  min-width: 300px;
+  min-height: 200px;
+  margin-top: 3vw;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: blueviolet;
+  border-style: solid;
+}
+
+.right-img {
+  /* z-index: 1; */
+  width: 300px;
+  height: 200px;
+  min-width: 300px;
+  min-height: 200px;
+  margin-right: 0;
+  margin-left: auto;
+  background-color: blueviolet;
+  border-style: solid;
+}
